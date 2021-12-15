@@ -8,20 +8,20 @@
     height: 100vh;
     width: 100vw;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 1fr 60px;
+    grid-template-rows: 70px 1fr 60px;
     grid-template-areas: 
     "he he"
     "pi ar"
     "fo fo";
 }
-#header_one{
-    background-color: steelblue;
+.head{
+    background-color: rgb(255, 102, 0);
     grid-area: he;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#h_div{
+.h_div{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -29,15 +29,13 @@
 }
 #fram{
     grid-area: pi;
-    background-color: turquoise;
 }
 #fact_one{
     grid-area: ar;
-    background-color: tomato;
 }
-#foo_h{
+.foo{
     grid-area: fo;
-    background-color: purple; 
+    background-color: grey; 
 }
 #bild_h{
     width: auto;
@@ -47,4 +45,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#div_m{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr 60px;
+    grid-template-areas: 
+    "he"
+    "me"
+    "fo";
+}
+#div_mm{
+    grid-area: me;
+    display: felx;
+}
+#div_l{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr 60px;
+    grid-template-areas: 
+    "he"
+    "ma"
+    "fo";
+}
+#div_l{
+    grid-area: ma;
 }
