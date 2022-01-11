@@ -59,6 +59,8 @@
 #div_mm{
     grid-area: me;
     display: felx;
+    align-items: center;
+    justify-content: space-evenly;
 }
 #div_l{
     display: grid;
@@ -72,4 +74,16 @@
 }
 #div_l{
     grid-area: ma;
+}
+.m_item{
+    border-radius: 25px;
+    width: 75vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px solid black;
+}
+.dish_pic{
+    height: 45vh;
 }
