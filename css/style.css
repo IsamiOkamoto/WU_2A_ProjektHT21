@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 #div_one{
+    background-color: black;
     display: grid;
     height: 100vh;
     width: 100vw;
@@ -13,6 +15,22 @@
     "he he"
     "pi ar"
     "fo fo";
+}
+#ar_head{
+    color: white;
+    font-size: 3rem;
+}
+#fact_t{
+    color: white;
+    font-size: 1.4rem;
+    margin: 10px;
+}
+#fact_one{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
 }
 .head{
     background-color: rgb(255, 102, 0);
@@ -25,7 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 90vw;
+    width: 80vw;
 }
 #fram{
     grid-area: pi;
@@ -47,6 +65,7 @@
     justify-content: center;
 }
 #div_m{
+    background-color: black;
     display: grid;
     width: 100vw;
     grid-template-columns: 1fr;
@@ -58,9 +77,12 @@
 }
 #div_mm{
     grid-area: me;
-    display: felx;
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: none;
+    background-image: url(img/Bild_pa_resutrang.jp);
 }
 #div_l{
     display: grid;
@@ -78,12 +100,29 @@
 .m_item{
     border-radius: 25px;
     width: 60vw;
-    height: 50vh;
+    height: minmax(500px 50vh);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: 5px solid black;
+    border: 5px solid white;
+    margin: 20px;
+    background-color: black;
 }
 .dish_pic{
+    margin: 10px;
     height: 45vh;
+    border-radius: 5%;
+}
+.dish_a{
+    font-size: 1.25rem;
+    color: white;
+    margin: 1.25rem;
+}
+.menu_t{
+
+}
+.menu_head{
+    color:white;
+    font-size: 2.5rem;
+    margin: 1.25rem;
 }
